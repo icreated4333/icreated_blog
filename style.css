@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   background: #f9fafb;
   color: #222;
   text-align: center;
@@ -21,17 +21,18 @@ nav {
   text-decoration: none;
   color: #222;
   background: #f3f4f6;
-  border: 2px solid #e5e7eb;
-  border-radius: 20px;
+  border: 2px solid #b0b3b8;
+  border-radius: 24px;
   padding: 0.5rem 2rem;
   font-size: 1.05rem;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
   margin: 0 0.5rem;
   box-shadow: 0 1px 4px 0 rgba(0,0,0,0.03);
 }
 
-.nav-btn:hover, .nav-btn.active {
+.nav-btn:hover,
+.nav-btn.active {
   background: #222;
   color: #fff;
   border-color: #222;
@@ -49,5 +50,5 @@ main {
 
 h1, p {
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
