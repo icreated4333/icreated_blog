@@ -52,3 +52,17 @@ h1, p {
   text-align: center;
   font-family: "Courier New", monospace;
 }
+
+footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  background: #f3f4f6;
+  color: #555;
+  font-family: "Courier New", monospace;
+  font-size: 0.95rem;
+  text-align: center;
+  border-top: 1px solid #e5e7eb;
+}
+footer small {
+  display: block;
+}
